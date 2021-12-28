@@ -5,7 +5,7 @@ from datetime import datetime
 
 class DeadlinedMetaReminder(Iterable, metaclass=ABCMeta):
 
-    @abstractclassmethod
+    @abstractmethod
     def is_due(self):
         pass
 
